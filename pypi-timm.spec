@@ -7,7 +7,7 @@
 #
 Name     : pypi-timm
 Version  : 1.0.11
-Release  : 3
+Release  : 4
 URL      : https://files.pythonhosted.org/packages/5b/53/33b596c79eb911586ca90e16d64fde9738ddd0d34273ae562ea664eacca7/timm-1.0.11.tar.gz
 Source0  : https://files.pythonhosted.org/packages/5b/53/33b596c79eb911586ca90e16d64fde9738ddd0d34273ae562ea664eacca7/timm-1.0.11.tar.gz
 Summary  : PyTorch Image Models
