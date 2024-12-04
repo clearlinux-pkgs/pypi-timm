@@ -1,5 +1,5 @@
 PKG_NAME := pypi-timm
-URL = https://files.pythonhosted.org/packages/5b/53/33b596c79eb911586ca90e16d64fde9738ddd0d34273ae562ea664eacca7/timm-1.0.11.tar.gz
+URL = https://files.pythonhosted.org/packages/8b/d9/7382e27b379d4b791811396e05c9421703bbb21b2f726ff3e78469b5b194/timm-1.0.12.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
