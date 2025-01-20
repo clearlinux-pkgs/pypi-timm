@@ -6,10 +6,10 @@
 # autospec commit: f4a13a5
 #
 Name     : pypi-timm
-Version  : 1.0.13
-Release  : 6
-URL      : https://files.pythonhosted.org/packages/9b/7c/1a6f3ddd6153679dd95c6b235e5f3f3c9f8ff881c7326cdc32e95d3ceb48/timm-1.0.13.tar.gz
-Source0  : https://files.pythonhosted.org/packages/9b/7c/1a6f3ddd6153679dd95c6b235e5f3f3c9f8ff881c7326cdc32e95d3ceb48/timm-1.0.13.tar.gz
+Version  : 1.0.14
+Release  : 7
+URL      : https://files.pythonhosted.org/packages/c7/54/0035186f45894533c155ffb5cdfbc7f1ac35af5ba258e88a63db586652f8/timm-1.0.14.tar.gz
+Source0  : https://files.pythonhosted.org/packages/c7/54/0035186f45894533c155ffb5cdfbc7f1ac35af5ba258e88a63db586652f8/timm-1.0.14.tar.gz
 Summary  : PyTorch Image Models
 Group    : Development/Tools
 License  : Apache-2.0
@@ -68,15 +68,15 @@ python3 components for the pypi-timm package.
 
 
 %prep
-%setup -q -n timm-1.0.13
-cd %{_builddir}/timm-1.0.13
+%setup -q -n timm-1.0.14
+cd %{_builddir}/timm-1.0.14
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1736455972
+export SOURCE_DATE_EPOCH=1737388154
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
